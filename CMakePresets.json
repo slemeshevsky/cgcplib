@@ -1,0 +1,29 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+      "major": 3,
+      "minor": 14,
+      "patch": 0
+    },
+    "configurePresets": [
+      {
+        "name": "dev",
+        "description": "Base preset for library developers",
+        "binaryDir": "${sourceDir}/build",
+        "hidden": true,
+        "cacheVariables": {
+          "CGCPLIB_BUILD_TESTS": "ON",
+          "CGCPLIB_BUILD_EXAMPLES": "OFF"
+        }
+      },
+      {
+        "name": "dev-linux",
+        "description": "Linux/MSYS2 preset for library developers",
+        "hidden": false,
+        "inherits": ["dev"],
+        "cacheVariables": {
+          "CMAKE_CXX_FLAGS": "-Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wcast-align -Wcast-qual -Wnull-dereference -Woverloaded-virtual -Wformat=2 -Werror"
+        }
+      }
+    ]
+  }
