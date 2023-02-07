@@ -24,3 +24,7 @@ if(CGAL_Qt5_FOUND)
 else()
   message("CGAL Qt5 is not found.")
 endif()
+
+# if(NOT is_top_level)
+#     win_copy_deps_to_target_dir(converter_test cgcplib::cgcplib)
+# endif()
