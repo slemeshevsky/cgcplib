@@ -6,14 +6,20 @@
       "patch": 0
     },
     "configurePresets": [
-      {
+        {
         "name": "dev",
         "description": "Base preset for library developers",
         "binaryDir": "${sourceDir}/build",
         "hidden": true,
         "cacheVariables": {
-          "CGCPLIB_BUILD_TESTS": "ON",
-          "CGCPLIB_BUILD_EXAMPLES": "OFF"
+            "CGCPLIB_BUILD_TESTS": {
+                "type": "BOOL",
+                "value": "ON"
+            },
+            "CGCPLIB_BUILD_EXAMPLES": {
+                "type": "BOOL",
+                "value": "OFF"
+            }
         }
       },
       {
