@@ -8,7 +8,8 @@ int main(int argc, char *argv[]) {
             << "region_growing_on_polygon_mesh example started" << std::endl
             << std::endl;
 
-  Polygon_mesh pm = SBREPBuilder::ReadObjFile("/home/svl/Projects/Cxx/cgcplib/data/furniture_xena.obj");
+  const std::string filename = (argc>1) ? argv[1] : CGAL::data_file_path("data/testCube.obj");
+  Polygon_mesh pm = SBREPBuilder::ReadObjFile();
   CGAL::draw(pm);
   return 0;
 };

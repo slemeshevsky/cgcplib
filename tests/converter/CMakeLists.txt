@@ -18,9 +18,9 @@ target_link_libraries(converter_test PUBLIC
   cgcplib::cgcplib)
 
 find_package(CGAL REQUIRED OPTIONAL_COMPONENTS Qt5)
-if(NOT CGAL_Qt5_FOUND)
-  message("CGAL Qt5 is not found.")
-else()
+if(CGAL_Qt5_FOUND)
   target_link_libraries(converter_test PUBLIC
-    CGAL::CGAL_Basic_viewer)
+      CGAL::CGAL_Basic_viewer)
+else()
+  message("CGAL Qt5 is not found.")
 endif()
