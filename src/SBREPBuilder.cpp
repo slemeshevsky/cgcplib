@@ -54,7 +54,7 @@ Regions SBREPBuilder::Convert(Polygon_mesh polygon_mesh) {
 }
 
 int SBREPBuilder::SaveRegions(Polygon_mesh polygon_mesh, Regions regions,
-                              std::string path) {
+                              std::string path, std::string extension="off") {
   using Face_index = typename Polygon_mesh::Face_index;
 
   srand(static_cast<unsigned int>(time(nullptr)));
@@ -70,8 +70,8 @@ int SBREPBuilder::SaveRegions(Polygon_mesh polygon_mesh, Regions regions,
     return EXIT_FAILURE;
   }
 
-  const std::string fullpath = path + "/regions_polygon_mesh.off";
-  std::ofstream out(fullpath);
+  path = path + "." + extension;
+  std::ofstream out(path);
   // Iterate through all regions.
   for (const auto& region : regions) {
     // Generate a random color.
@@ -83,10 +83,18 @@ int SBREPBuilder::SaveRegions(Polygon_mesh polygon_mesh, Regions regions,
     for (const auto index : region)
       face_color[Face_index(static_cast<size_type>(index))] = color;
   }
-  // CGAL::IO::write_OBJ(out, polygon_mesh);
-  out << polygon_mesh;
+  // 
+
+  if (extension == "off")
+    out << polygon_mesh;
+  else if (extension == "obj")
+    CGAL::IO::write_OBJ(out, polygon_mesh);
+  else if (extension == "ply")
+    CGAL::IO::write_PLY(out, polygon_mesh);
+  else
+    std::cout <<"* output file format does not support." << std::endl;
   out.close();
-  std::cout << "* polygon mesh is saved in " << fullpath << std::endl;
+  std::cout << "* polygon mesh is saved in " << path << std::endl;
 
   return EXIT_SUCCESS;
 }

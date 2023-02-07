@@ -47,7 +47,7 @@ public:
 
   static Polygon_mesh ReadObjFile(std::string obj_file_path);
   static Regions Convert(Polygon_mesh polygon_mesh);
-  static int SaveRegions(Polygon_mesh polygon_mesh, Regions regions, const std::string path);
+  static int SaveRegions(Polygon_mesh polygon_mesh, Regions regions, const std::string path, std::string extension);
 };
 
 #endif /* SBREPBUILDER_H */
