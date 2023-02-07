@@ -1,5 +1,4 @@
 #include <cgcplib/SBREPBuilder.hpp>
-#include "SBREPBuilder.hpp"
 
 namespace cgcp::SBREP
 {
