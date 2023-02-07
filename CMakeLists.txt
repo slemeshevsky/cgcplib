@@ -6,7 +6,7 @@ include(GNUInstallDirs)
 
 string(COMPARE EQUAL "${CMAKE_SOURCE_DIR}" "${CMAKE_CURRENT_SOURCE_DIR}" is_top_level)
 
-option(CGCPLIB_BUILD_TESTS "Build cgcplib tests" OFF)
+option(CGCPLIB_BUILD_TESTS "Build cgcplib tests" ON)
 option(CGCPLIB_BUILD_EXAMPLES "Build cgcplib examples" OFF)
 option(CGCPLIB_BUILD_DOCS "Build cgcplib documentation" OFF)
 option(CGCPLIB_INSTALL "Generate target for installing cgcplib" ${is_top_level})
@@ -61,7 +61,7 @@ set_target_properties(cgcplib PROPERTIES
     SOVERSION ${PROJECT_VERSION_MAJOR}
     VERSION ${PROJECT_VERSION})
 
-find_package(CGAL REQUIRED Core)
+find_package(CGAL REQUIRED COMPONENTS Core Qt5)
 set(CGAL_DO_NOT_WARN_ABOUT_CMAKE_BUILD_TYPE TRUE)
 if(CGAL_FOUND)
     target_link_libraries(cgcplib PUBLIC CGAL::CGAL CGAL::CGAL_Core)
