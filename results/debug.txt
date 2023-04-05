@@ -1,0 +1,1013 @@
+* region_growing_on_polygon_mesh example started
+
+* Number of vertices: 347
+* Number of faces: 690
+* Number of groups: 7
+
+* 6 regions have been found.
+Planar group: 0
+Number of subregionds: 1
+* DS for region: 0 intialized
+*** Start extraction of outer boundary ***
+*** Outer boundary extracted. ***
+*** Start holes extraction ***
+*** 0 holes extracted. ***
+Edge: 0
+	 Vertices: 75 197
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 1
+	 Vertices: 197 170
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 2
+	 Vertices: 170 161
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 3
+	 Vertices: 161 190
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 4
+	 Vertices: 190 165
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 5
+	 Vertices: 165 163
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 6
+	 Vertices: 163 186
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 7
+	 Vertices: 186 185
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 8
+	 Vertices: 185 193
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 9
+	 Vertices: 193 194
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 10
+	 Vertices: 194 152
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 11
+	 Vertices: 152 196
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 12
+	 Vertices: 196 195
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 13
+	 Vertices: 195 192
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 14
+	 Vertices: 192 155
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 15
+	 Vertices: 155 124
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 16
+	 Vertices: 124 123
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 17
+	 Vertices: 123 142
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 18
+	 Vertices: 142 125
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 19
+	 Vertices: 125 120
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 20
+	 Vertices: 120 101
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 21
+	 Vertices: 101 136
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 22
+	 Vertices: 136 106
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 23
+	 Vertices: 106 48
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 24
+	 Vertices: 48 4
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 25
+	 Vertices: 4 55
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 26
+	 Vertices: 55 26
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 27
+	 Vertices: 26 8
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 28
+	 Vertices: 8 7
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 29
+	 Vertices: 7 35
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 30
+	 Vertices: 35 64
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 31
+	 Vertices: 64 75
+	 Groups: 6 1
+	 Planes: 0 4
+****************************************
+Loop 0 contains: 4 polylines
+Polyline: 0 contains 8 edges
+Vertices: 
+75 (-1, 1, 1); 197 (-1, 1, 0.75); 170 (-1, 1, 0.5); 161 (-1, 1, 0.25); 190 (-1, 1, 2.67189e-24); 165 (-1, 1, -0.25); 163 (-1, 1, -0.5); 186 (-1, 1, -0.75); 
+Polyline: 1 contains 8 edges
+Vertices: 
+185 (-1, 1, -1); 193 (-1, 0.75, -1); 194 (-1, 0.5, -1); 152 (-1, 0.25, -1); 196 (-1, 2.67189e-24, -1); 195 (-1, -0.25, -1); 192 (-1, -0.5, -1); 155 (-1, -0.75, -1); 
+Polyline: 2 contains 8 edges
+Vertices: 
+124 (-1, -1, -1); 123 (-1, -1, -0.75); 142 (-1, -1, -0.5); 125 (-1, -1, -0.25); 120 (-1, -1, -2.67189e-24); 101 (-1, -1, 0.25); 136 (-1, -1, 0.5); 106 (-1, -1, 0.75); 
+Polyline: 3 contains 8 edges
+Vertices: 
+48 (-1, -1, 1); 4 (-1, -0.75, 1); 55 (-1, -0.5, 1); 26 (-1, -0.25, 1); 8 (-1, -2.67189e-24, 1); 7 (-1, 0.25, 1); 35 (-1, 0.5, 1); 64 (-1, 0.75, 1); 
+****************************************
+Planar group: 1
+Number of subregionds: 1
+* DS for region: 0 intialized
+*** Start extraction of outer boundary ***
+*** Outer boundary extracted. ***
+*** Start holes extraction ***
+*** 0 holes extracted. ***
+Edge: 32
+	 Vertices: 77 76
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 33
+	 Vertices: 76 52
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 34
+	 Vertices: 52 28
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 35
+	 Vertices: 28 12
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 36
+	 Vertices: 12 40
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 37
+	 Vertices: 40 58
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 38
+	 Vertices: 58 57
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 39
+	 Vertices: 57 63
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 40
+	 Vertices: 63 119
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 41
+	 Vertices: 119 118
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 42
+	 Vertices: 118 139
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 43
+	 Vertices: 139 141
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 44
+	 Vertices: 141 114
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 45
+	 Vertices: 114 116
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 46
+	 Vertices: 116 135
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 47
+	 Vertices: 135 140
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 48
+	 Vertices: 140 227
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 49
+	 Vertices: 227 226
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 50
+	 Vertices: 226 239
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 51
+	 Vertices: 239 246
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 52
+	 Vertices: 246 247
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 53
+	 Vertices: 247 233
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 54
+	 Vertices: 233 232
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 55
+	 Vertices: 232 244
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 56
+	 Vertices: 244 264
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 57
+	 Vertices: 264 266
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 58
+	 Vertices: 266 267
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 59
+	 Vertices: 267 301
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 60
+	 Vertices: 301 279
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 61
+	 Vertices: 279 280
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 62
+	 Vertices: 280 300
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 63
+	 Vertices: 300 77
+	 Groups: 4 5
+	 Planes: 1 2
+****************************************
+Loop 1 contains: 4 polylines
+Polyline: 4 contains 8 edges
+Vertices: 
+77 (1, 1, 1); 76 (1, 0.75, 1); 52 (1, 0.5, 1); 28 (1, 0.25, 1); 12 (1, -2.67189e-24, 1); 40 (1, -0.25, 1); 58 (1, -0.5, 1); 57 (1, -0.75, 1); 
+Polyline: 5 contains 8 edges
+Vertices: 
+63 (1, -1, 1); 119 (1, -1, 0.75); 118 (1, -1, 0.5); 139 (1, -1, 0.25); 141 (1, -1, -2.67189e-24); 114 (1, -1, -0.25); 116 (1, -1, -0.5); 135 (1, -1, -0.75); 
+Polyline: 6 contains 8 edges
+Vertices: 
+140 (1, -1, -1); 227 (1, -0.75, -1); 226 (1, -0.5, -1); 239 (1, -0.25, -1); 246 (1, 2.67189e-24, -1); 247 (1, 0.25, -1); 233 (1, 0.5, -1); 232 (1, 0.75, -1); 
+Polyline: 7 contains 8 edges
+Vertices: 
+244 (1, 1, -1); 264 (1, 1, -0.75); 266 (1, 1, -0.5); 267 (1, 1, -0.25); 301 (1, 1, 2.67189e-24); 279 (1, 1, 0.25); 280 (1, 1, 0.5); 300 (1, 1, 0.75); 
+****************************************
+Planar group: 2
+Number of subregionds: 1
+* DS for region: 0 intialized
+*** Start extraction of outer boundary ***
+*** Outer boundary extracted. ***
+*** Start holes extraction ***
+*** 0 holes extracted. ***
+Edge: 0
+	 Vertices: 75 197
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 1
+	 Vertices: 197 170
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 2
+	 Vertices: 170 161
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 3
+	 Vertices: 161 190
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 4
+	 Vertices: 190 165
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 5
+	 Vertices: 165 163
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 6
+	 Vertices: 163 186
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 7
+	 Vertices: 186 185
+	 Groups: 6 5
+	 Planes: 0 2
+Edge: 56
+	 Vertices: 244 264
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 57
+	 Vertices: 264 266
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 58
+	 Vertices: 266 267
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 59
+	 Vertices: 267 301
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 60
+	 Vertices: 301 279
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 61
+	 Vertices: 279 280
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 62
+	 Vertices: 280 300
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 63
+	 Vertices: 300 77
+	 Groups: 4 5
+	 Planes: 1 2
+Edge: 64
+	 Vertices: 244 243
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 65
+	 Vertices: 243 252
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 66
+	 Vertices: 252 251
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 67
+	 Vertices: 251 217
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 68
+	 Vertices: 217 223
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 69
+	 Vertices: 223 236
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 70
+	 Vertices: 236 220
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 71
+	 Vertices: 220 185
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 72
+	 Vertices: 75 65
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 73
+	 Vertices: 65 68
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 74
+	 Vertices: 68 60
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 75
+	 Vertices: 60 73
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 76
+	 Vertices: 73 70
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 77
+	 Vertices: 70 71
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 78
+	 Vertices: 71 74
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 79
+	 Vertices: 74 77
+	 Groups: 5 1
+	 Planes: 2 4
+****************************************
+Loop 2 contains: 3 polylines
+Polyline: 8 contains 16 edges
+Vertices: 
+75 (-1, 1, 1); 197 (-1, 1, 0.75); 170 (-1, 1, 0.5); 161 (-1, 1, 0.25); 190 (-1, 1, 2.67189e-24); 165 (-1, 1, -0.25); 163 (-1, 1, -0.5); 186 (-1, 1, -0.75); 244 (1, 1, -1); 264 (1, 1, -0.75); 266 (1, 1, -0.5); 267 (1, 1, -0.25); 301 (1, 1, 2.67189e-24); 279 (1, 1, 0.25); 280 (1, 1, 0.5); 300 (1, 1, 0.75); 
+Polyline: 9 contains 8 edges
+Vertices: 
+244 (1, 1, -1); 243 (0.75, 1, -1); 252 (0.5, 1, -1); 251 (0.25, 1, -1); 217 (0, 1, -1); 223 (-0.25, 1, -1); 236 (-0.5, 1, -1); 220 (-0.75, 1, -1); 
+Polyline: 10 contains 8 edges
+Vertices: 
+75 (-1, 1, 1); 65 (-0.75, 1, 1); 68 (-0.5, 1, 1); 60 (-0.25, 1, 1); 73 (0, 1, 1); 70 (0.25, 1, 1); 71 (0.5, 1, 1); 74 (0.75, 1, 1); 
+****************************************
+Planar group: 3
+Number of subregionds: 1
+* DS for region: 0 intialized
+*** Start extraction of outer boundary ***
+*** Outer boundary extracted. ***
+*** Start holes extraction ***
+*** 0 holes extracted. ***
+Edge: 8
+	 Vertices: 185 193
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 9
+	 Vertices: 193 194
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 10
+	 Vertices: 194 152
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 11
+	 Vertices: 152 196
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 12
+	 Vertices: 196 195
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 13
+	 Vertices: 195 192
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 14
+	 Vertices: 192 155
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 15
+	 Vertices: 155 124
+	 Groups: 6 7
+	 Planes: 0 3
+Edge: 48
+	 Vertices: 140 227
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 49
+	 Vertices: 227 226
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 50
+	 Vertices: 226 239
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 51
+	 Vertices: 239 246
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 52
+	 Vertices: 246 247
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 53
+	 Vertices: 247 233
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 54
+	 Vertices: 233 232
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 55
+	 Vertices: 232 244
+	 Groups: 4 7
+	 Planes: 1 3
+Edge: 64
+	 Vertices: 244 243
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 65
+	 Vertices: 243 252
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 66
+	 Vertices: 252 251
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 67
+	 Vertices: 251 217
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 68
+	 Vertices: 217 223
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 69
+	 Vertices: 223 236
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 70
+	 Vertices: 236 220
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 71
+	 Vertices: 220 185
+	 Groups: 5 7
+	 Planes: 2 3
+Edge: 80
+	 Vertices: 140 137
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 81
+	 Vertices: 137 117
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 82
+	 Vertices: 117 131
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 83
+	 Vertices: 131 138
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 84
+	 Vertices: 138 93
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 85
+	 Vertices: 93 92
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 86
+	 Vertices: 92 94
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 87
+	 Vertices: 94 124
+	 Groups: 7 3
+	 Planes: 3 5
+****************************************
+Loop 3 contains: 2 polylines
+Polyline: 11 contains 24 edges
+Vertices: 
+185 (-1, 1, -1); 193 (-1, 0.75, -1); 194 (-1, 0.5, -1); 152 (-1, 0.25, -1); 196 (-1, 2.67189e-24, -1); 195 (-1, -0.25, -1); 192 (-1, -0.5, -1); 155 (-1, -0.75, -1); 140 (1, -1, -1); 227 (1, -0.75, -1); 226 (1, -0.5, -1); 239 (1, -0.25, -1); 246 (1, 2.67189e-24, -1); 247 (1, 0.25, -1); 233 (1, 0.5, -1); 232 (1, 0.75, -1); 244 (1, 1, -1); 243 (0.75, 1, -1); 252 (0.5, 1, -1); 251 (0.25, 1, -1); 217 (0, 1, -1); 223 (-0.25, 1, -1); 236 (-0.5, 1, -1); 220 (-0.75, 1, -1); 
+Polyline: 12 contains 8 edges
+Vertices: 
+140 (1, -1, -1); 137 (0.75, -1, -1); 117 (0.5, -1, -1); 131 (0.25, -1, -1); 138 (0, -1, -1); 93 (-0.25, -1, -1); 92 (-0.5, -1, -1); 94 (-0.75, -1, -1); 
+****************************************
+Planar group: 4
+Number of subregionds: 2
+* DS for region: 0 intialized
+*** Start extraction of outer boundary ***
+*** Outer boundary extracted. ***
+*** Start holes extraction ***
+*** 0 holes extracted. ***
+Edge: 24
+	 Vertices: 48 4
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 25
+	 Vertices: 4 55
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 26
+	 Vertices: 55 26
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 27
+	 Vertices: 26 8
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 28
+	 Vertices: 8 7
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 29
+	 Vertices: 7 35
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 30
+	 Vertices: 35 64
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 31
+	 Vertices: 64 75
+	 Groups: 6 1
+	 Planes: 0 4
+Edge: 32
+	 Vertices: 77 76
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 33
+	 Vertices: 76 52
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 34
+	 Vertices: 52 28
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 35
+	 Vertices: 28 12
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 36
+	 Vertices: 12 40
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 37
+	 Vertices: 40 58
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 38
+	 Vertices: 58 57
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 39
+	 Vertices: 57 63
+	 Groups: 4 1
+	 Planes: 1 4
+Edge: 72
+	 Vertices: 75 65
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 73
+	 Vertices: 65 68
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 74
+	 Vertices: 68 60
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 75
+	 Vertices: 60 73
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 76
+	 Vertices: 73 70
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 77
+	 Vertices: 70 71
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 78
+	 Vertices: 71 74
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 79
+	 Vertices: 74 77
+	 Groups: 5 1
+	 Planes: 2 4
+Edge: 88
+	 Vertices: 48 5
+	 Groups: 1 3
+	 Planes: 4 5
+Edge: 89
+	 Vertices: 5 37
+	 Groups: 1 3
+	 Planes: 4 5
+Edge: 90
+	 Vertices: 37 38
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 91
+	 Vertices: 38 32
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 92
+	 Vertices: 32 43
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 93
+	 Vertices: 43 59
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 94
+	 Vertices: 59 9
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 95
+	 Vertices: 9 27
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 96
+	 Vertices: 27 62
+	 Groups: 1 3
+	 Planes: 4 5
+Edge: 97
+	 Vertices: 62 63
+	 Groups: 1 3
+	 Planes: 4 5
+****************************************
+Loop 4 contains: 4 polylines
+Polyline: 13 contains 24 edges
+Vertices: 
+48 (-1, -1, 1); 4 (-1, -0.75, 1); 55 (-1, -0.5, 1); 26 (-1, -0.25, 1); 8 (-1, -2.67189e-24, 1); 7 (-1, 0.25, 1); 35 (-1, 0.5, 1); 64 (-1, 0.75, 1); 77 (1, 1, 1); 76 (1, 0.75, 1); 52 (1, 0.5, 1); 28 (1, 0.25, 1); 12 (1, -2.67189e-24, 1); 40 (1, -0.25, 1); 58 (1, -0.5, 1); 57 (1, -0.75, 1); 75 (-1, 1, 1); 65 (-0.75, 1, 1); 68 (-0.5, 1, 1); 60 (-0.25, 1, 1); 73 (0, 1, 1); 70 (0.25, 1, 1); 71 (0.5, 1, 1); 74 (0.75, 1, 1); 
+Polyline: 14 contains 2 edges
+Vertices: 
+48 (-1, -1, 1); 5 (-0.75, -1, 1); 
+Polyline: 15 contains 6 edges
+Vertices: 
+37 (-0.5, -1, 1); 38 (-0.383917, -0.75148, 1); 32 (-0.228781, -0.569354, 1); 43 (0.00950202, -0.515823, 1); 59 (0.288507, -0.495482, 1); 9 (0.381169, -0.758535, 1); 
+Polyline: 16 contains 2 edges
+Vertices: 
+27 (0.5, -1, 1); 62 (0.75, -1, 1); 
+****************************************
+* DS for region: 0 intialized
+*** Start extraction of outer boundary ***
+*** Outer boundary extracted. ***
+*** Start holes extraction ***
+*** 0 holes extracted. ***
+Edge: 90
+	 Vertices: 37 38
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 91
+	 Vertices: 38 32
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 92
+	 Vertices: 32 43
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 93
+	 Vertices: 43 59
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 94
+	 Vertices: 59 9
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 95
+	 Vertices: 9 27
+	 Groups: 1 2
+	 Planes: 4 4
+Edge: 98
+	 Vertices: 37 66
+	 Groups: 2 2
+	 Planes: 4 5
+Edge: 99
+	 Vertices: 66 72
+	 Groups: 2 2
+	 Planes: 4 5
+Edge: 100
+	 Vertices: 72 11
+	 Groups: 2 2
+	 Planes: 4 5
+Edge: 101
+	 Vertices: 11 27
+	 Groups: 2 2
+	 Planes: 4 5
+****************************************
+Loop 5 contains: 2 polylines
+Polyline: 15 contains 6 edges
+Vertices: 
+37 (-0.5, -1, 1); 38 (-0.383917, -0.75148, 1); 32 (-0.228781, -0.569354, 1); 43 (0.00950202, -0.515823, 1); 59 (0.288507, -0.495482, 1); 9 (0.381169, -0.758535, 1); 
+Polyline: 17 contains 4 edges
+Vertices: 
+37 (-0.5, -1, 1); 66 (-0.25, -1, 1); 72 (0, -1, 1); 11 (0.25, -1, 1); 
+****************************************
+Planar group: 5
+Number of subregionds: 2
+* DS for region: 0 intialized
+*** Start extraction of outer boundary ***
+*** Outer boundary extracted. ***
+*** Start holes extraction ***
+*** 0 holes extracted. ***
+Edge: 98
+	 Vertices: 37 66
+	 Groups: 2 2
+	 Planes: 4 5
+Edge: 99
+	 Vertices: 66 72
+	 Groups: 2 2
+	 Planes: 4 5
+Edge: 100
+	 Vertices: 72 11
+	 Groups: 2 2
+	 Planes: 4 5
+Edge: 101
+	 Vertices: 11 27
+	 Groups: 2 2
+	 Planes: 4 5
+Edge: 102
+	 Vertices: 37 97
+	 Groups: 2 3
+	 Planes: 5 5
+Edge: 103
+	 Vertices: 97 133
+	 Groups: 2 3
+	 Planes: 5 5
+Edge: 104
+	 Vertices: 133 129
+	 Groups: 2 3
+	 Planes: 5 5
+Edge: 105
+	 Vertices: 129 88
+	 Groups: 2 3
+	 Planes: 5 5
+Edge: 106
+	 Vertices: 88 82
+	 Groups: 2 3
+	 Planes: 5 5
+Edge: 107
+	 Vertices: 82 27
+	 Groups: 2 3
+	 Planes: 5 5
+****************************************
+Loop 6 contains: 2 polylines
+Polyline: 17 contains 4 edges
+Vertices: 
+37 (-0.5, -1, 1); 66 (-0.25, -1, 1); 72 (0, -1, 1); 11 (0.25, -1, 1); 
+Polyline: 18 contains 6 edges
+Vertices: 
+37 (-0.5, -1, 1); 97 (-0.319969, -1, 0.760591); 133 (-0.16904, -1, 0.51856); 129 (0.0538669, -1, 0.550741); 88 (0.247906, -1, 0.430246); 82 (0.496916, -1, 0.610545); 
+****************************************
+* DS for region: 0 intialized
+*** Start extraction of outer boundary ***
+*** Outer boundary extracted. ***
+*** Start holes extraction ***
+*** 0 holes extracted. ***
+Edge: 16
+	 Vertices: 124 123
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 17
+	 Vertices: 123 142
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 18
+	 Vertices: 142 125
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 19
+	 Vertices: 125 120
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 20
+	 Vertices: 120 101
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 21
+	 Vertices: 101 136
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 22
+	 Vertices: 136 106
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 23
+	 Vertices: 106 48
+	 Groups: 6 3
+	 Planes: 0 5
+Edge: 40
+	 Vertices: 63 119
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 41
+	 Vertices: 119 118
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 42
+	 Vertices: 118 139
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 43
+	 Vertices: 139 141
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 44
+	 Vertices: 141 114
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 45
+	 Vertices: 114 116
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 46
+	 Vertices: 116 135
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 47
+	 Vertices: 135 140
+	 Groups: 4 3
+	 Planes: 1 5
+Edge: 80
+	 Vertices: 140 137
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 81
+	 Vertices: 137 117
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 82
+	 Vertices: 117 131
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 83
+	 Vertices: 131 138
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 84
+	 Vertices: 138 93
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 85
+	 Vertices: 93 92
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 86
+	 Vertices: 92 94
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 87
+	 Vertices: 94 124
+	 Groups: 7 3
+	 Planes: 3 5
+Edge: 88
+	 Vertices: 48 5
+	 Groups: 1 3
+	 Planes: 4 5
+Edge: 89
+	 Vertices: 5 37
+	 Groups: 1 3
+	 Planes: 4 5
+Edge: 96
+	 Vertices: 27 62
+	 Groups: 1 3
+	 Planes: 4 5
+Edge: 97
+	 Vertices: 62 63
+	 Groups: 1 3
+	 Planes: 4 5
+Edge: 102
+	 Vertices: 37 97
+	 Groups: 2 3
+	 Planes: 5 5
+Edge: 103
+	 Vertices: 97 133
+	 Groups: 2 3
+	 Planes: 5 5
+Edge: 104
+	 Vertices: 133 129
+	 Groups: 2 3
+	 Planes: 5 5
+Edge: 105
+	 Vertices: 129 88
+	 Groups: 2 3
+	 Planes: 5 5
+Edge: 106
+	 Vertices: 88 82
+	 Groups: 2 3
+	 Planes: 5 5
+Edge: 107
+	 Vertices: 82 27
+	 Groups: 2 3
+	 Planes: 5 5
+****************************************
+Loop 7 contains: 1 polylines
+Polyline: 19 contains 34 edges
+Vertices: 
+124 (-1, -1, -1); 123 (-1, -1, -0.75); 142 (-1, -1, -0.5); 125 (-1, -1, -0.25); 120 (-1, -1, -2.67189e-24); 101 (-1, -1, 0.25); 136 (-1, -1, 0.5); 106 (-1, -1, 0.75); 63 (1, -1, 1); 119 (1, -1, 0.75); 118 (1, -1, 0.5); 139 (1, -1, 0.25); 141 (1, -1, -2.67189e-24); 114 (1, -1, -0.25); 116 (1, -1, -0.5); 135 (1, -1, -0.75); 140 (1, -1, -1); 137 (0.75, -1, -1); 117 (0.5, -1, -1); 131 (0.25, -1, -1); 138 (0, -1, -1); 93 (-0.25, -1, -1); 92 (-0.5, -1, -1); 94 (-0.75, -1, -1); 48 (-1, -1, 1); 5 (-0.75, -1, 1); 27 (0.5, -1, 1); 62 (0.75, -1, 1); 37 (-0.5, -1, 1); 97 (-0.319969, -1, 0.760591); 133 (-0.16904, -1, 0.51856); 129 (0.0538669, -1, 0.550741); 88 (0.247906, -1, 0.430246); 82 (0.496916, -1, 0.610545); 
+****************************************

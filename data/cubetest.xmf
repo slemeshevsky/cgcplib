@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Xdmf xmlns:xi="http://www.w3.org/2001/XInclude" Version="3.0">
+  <Domain>
+    <Grid CollectionType="None" GridType="Collection" Name="Collection">
+      <Grid Name="ExtractSelection2">
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="12 3" Format="XML" Precision="8">0.3811689019203186 -0.75853532552719116 1 0.13421083986759186 -0.75247609615325928 1 0.25 -1 1 0.5 -1 1 -0.22878079116344452 -0.56935405731201172 1 -0.5 -1 1 -0.38391736149787903 -0.75147980451583862 1 -0.12133768945932388 -0.76426398754119873 1 0.0095020169392228127 -0.51582258939743042 1 0.28850662708282471 -0.49548247456550598 1 -0.25 -1 1 0 -1 1</DataItem>
+        </Geometry>
+        <Topology Dimensions="12" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="48" Format="XML" Precision="8">4 0 1 2 4 3 0 2 4 7 8 4 4 10 7 6 4 0 9 1 4 7 10 11 4 4 6 7 4 8 1 9 4 11 1 7 4 5 10 6 4 8 7 1 4 11 2 1</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="GroupIds" Type="None">
+          <DataItem DataType="Float" Dimensions="12" Format="XML" Precision="4">1 1 1 1 1 1 1 1 1 1 1 1</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Calculator1">
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="12 3" Format="XML" Precision="8">0.3811689019203186 -0.75853532552719116 1 0.13421083986759186 -0.75247609615325928 1 0.25 -1 1 0.5 -1 1 -0.22878079116344452 -0.56935405731201172 1 -0.5 -1 1 -0.38391736149787903 -0.75147980451583862 1 -0.12133768945932388 -0.76426398754119873 1 0.0095020169392228127 -0.51582258939743042 1 0.28850662708282471 -0.49548247456550598 1 -0.25 -1 1 0 -1 1</DataItem>
+        </Geometry>
+        <Topology Dimensions="12" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="48" Format="XML" Precision="8">4 0 1 2 4 3 0 2 4 7 8 4 4 10 7 6 4 0 9 1 4 7 10 11 4 4 6 7 4 8 1 9 4 11 1 7 4 5 10 6 4 8 7 1 4 11 2 1</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="GroupIds" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="12" Format="XML" Precision="8">8 8 8 8 8 8 8 8 8 8 8 8</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="ExtractSelection1">
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="345 3" Format="HDF" Precision="8">cubetest.h5:Data0</DataItem>
+        </Geometry>
+        <Topology Dimensions="2712" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="2712" Format="HDF" Precision="8">cubetest.h5:Data1</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="GroupIds" Type="None">
+          <DataItem DataType="Float" Dimensions="678" Format="HDF" Precision="4">cubetest.h5:Data2</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
